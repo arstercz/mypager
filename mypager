@@ -77,11 +77,11 @@ END {
 }
 
 my $UUIDCOLORS = [
-    [map {color($_)} "rgb511", "rgb522", "rgb533", "rgb544"],  # red
-    [map {color($_)} "rgb151", "rgb252", "rgb353", "rgb454"],  # green
-    [map {color($_)} "rgb115", "rgb225", "rgb335", "rgb445"],  # blue
-    [map {color($_)} "rgb551", "rgb552", "rgb553", "rgb554"],  # yellow
-    [map {color($_)} "rgb515", "rgb525", "rgb535", "rgb545"],  # magenta
+    [color 'red'],     # red
+    [color 'green'],   # green
+    [color 'blue'],    # blue
+    [color 'yellow'],  # yellow
+    [color 'magenta'], # magenta
 ];
 
 sub uuid_color() {
